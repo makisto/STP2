@@ -1,0 +1,14 @@
+********* Start testing of test *********
+Config: Using QtTest library 5.3.1, Qt 5.3.1
+PASS   : test::initTestCase()
+PASS   : test::add()
+PASS   : test::del()
+PASS   : test::clear()
+PASS   : test::isUniqueName()
+FAIL!  : test::find() Compared values are not the same
+   Actual   (index)       : -1
+   Expected (p.find("iv")): 0
+..\PhoneBook\test.cpp(69) : failure location
+PASS   : test::cleanupTestCase()
+Totals: 6 passed, 1 failed, 0 skipped
+********* Finished testing of test *********
